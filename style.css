@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+.img{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 8px 25px;
+border: 2px transparent #fff;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+ul li.home a{
+	background-color: #000;
+	color: #fff;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height:100;
+	padding: 25px 0px;
+}
+.main{
+	max-width: 1300px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	color: #fff;
+	transform: translate(-50%,-70%);
+
+}
+.title h1{
+	font-size: 67px;
+}
+
+.head h1{
+	color: #fff;
+	font-family:Century Gothic ;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 4em;
+}
+.img2{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.details{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+.find{
+	position: relative;
+	z-index: 1;
+	background:rgba(0,0,0,0.5);
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding:40px;
+	text-align =center ;
+	opacity: .95;
+}
+.find input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background: #DCDCDC;
+	width: 100%;
+	border: 1;
+	margin: 0 2px 15px;
+	padding: 14px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+.find button{
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 1;
+	background: #008000;
+	width:100%;
+	font-size: 15px;
+	color: #fff;
+	padding: 15px;
+	border: 0;
+	cursor: pointer;
+
+}
+.head a{
+	color:#000;
+	}
+.img3{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img4.jpg);
+	height: 120vh;
+	background-size: cover;
+	background-position: center;
+}
+.info{
+	width: 360px;
+	padding: 5% 0 0;
+	margin: auto;
+}
+
+	.ticket{
+	position: relative;
+	z-index: 1;
+	background:rgba(0,0,0,0.5);
+	max-width: 300px;
+	margin: 0 auto 100px;
+	padding:30px;
+	text-align :center ;
+	opacity: .95;
+}
+
+.ticket input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background: #DCDCDC;
+	width: 100%;
+	border: 1;
+	margin: 0 2px 15px;
+	padding: 14px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+.ticket button{
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 1;
+	background: #008000;
+	width:100%;
+	font-size: 15px;
+	color: #fff;
+	padding: 15px;
+	border: 0;
+	cursor: pointer;
+
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	font-family:Century Gothic;
+}
+.dropdown{
+	
+	
+	width:250px;
+	height: 50px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+	outline: none;
+padding-bottom:8px;}
+	.dropdown select{
+		background-color: #DCDCDC;
+		padding: 8px;
+		width:300px;
+		height:45px;
+		border: none;
+		font-size: 15px}
+
+	
+
+
+.img5{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img5.jpg);
+	height: 115vh;
+	background-size: cover;
+	background-position: center;
+}
+.top2{
+	text-align: left;
+	color: #fff;
+	font-size: 65px;
+	text-align: center;
+	font-family: Arial;
+	padding:60px;
+
+}
+.adrs{
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+}
+.form1{
+	position: absolute;
+	top:80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.form1 input{
+	font-family: "Roboto",sans-serif;
+	outline: 0;
+	background: #DCDCDC;
+	width: 100%;
+	border: 0;
+	margin: 0 5px 15px;
+	padding: 14px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+textarea{
+	font-size: 15px;
+	font-family: "Roboto",sans-serif;
+	width: 100%;
+	margin: 0 5px 15px;
+	background-color: #DCDCDC;
+	border: 0;
+	padding: 14px;
+
+}
+.form1 button{
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	outline: 1;
+	background: #0000FF;
+	width:25%;
+	font-size: 15px;
+	color: #fff;
+	padding: 15px;
+	border: 0;
+	cursor: pointer;
+
+
+}
